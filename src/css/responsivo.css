@@ -1,49 +1,13 @@
-@media(max-width: 768px) {
-   body {
-    background-position: center;
-    padding: 0 15px;
-   }
-
-   .slider {
-    gap: 10px;
-   }
-}
-
-@media(max-width: 496px) {
-    .lista-personagens {
-        width: 250px;
+@media(max-width: 750px){
+    body{
+        background-position: center;
+    }
+    .slider{
+        gap: 0; 
     }
 
-    .imagem-carta {
-        width:100%;
+    .slider .btn-seta{
+        align-self: flex-end;
+        margin: -115px;
     }
-
-    .slider {
-        position: relative;
-    }
-
-    .btn-seta {
-        position: absolute;
-        bottom: -1%;
-    }
-
-    #btn-avancar {
-        right: 20%;
-    }
-
-    #btn-voltar {
-        left: 20%;
-    }
-}
-
-@media(max-width: 375px) {
-     body {
-        justify-content: start;
-        padding-top: 10px;
-        gap: 10px;
-     }
-
-     .cabecalho {
-        font-size: 12px;
-     }
 }
